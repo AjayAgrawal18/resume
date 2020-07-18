@@ -2,6 +2,15 @@
 	box-sizing: border-box;
 
 }
+a {
+    color: blue;/* set the text color to blue here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
+
+  a:hover {
+    color:red;/* set the text color to red here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
 body{
 	background-color: #FEF5CA;
 	background-image: url("bg.jpg");
@@ -14,7 +23,11 @@ row{
 	width: 50%;
 	float: left;
 }
-
+footer{
+	align-content: :"center";
+	 margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .heading{
 	font-size: 1.3rem;
 
