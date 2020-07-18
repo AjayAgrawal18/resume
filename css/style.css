@@ -22,6 +22,8 @@ hr {
 row{
 	width: 50%;
 	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 footer{
 	align-content: :"center";
